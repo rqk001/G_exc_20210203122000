@@ -42,11 +42,6 @@ main(int argc, char **argv)
       break;
   }
 
-  lines[2] = 0;
-  lines[34] = 0;
-  lines[66] = 0;
-  lines[124] = 0;
-
   // Run context grep
   context_grep(i, lines, strtol(argv[1], 0, 0), argv[2]);
 
